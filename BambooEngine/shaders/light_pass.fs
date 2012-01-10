@@ -143,7 +143,8 @@ void main()
 
 
 
-    float fLitFactor = GetLitFactor(fDepth, vTexCoordsShadowMap);
+    //float fLitFactor = GetLitFactor(fDepth, vTexCoordsShadowMap);
+    float fLitFactor = (fDepth < fDepthInShadowMap + epsilon) ? 1.0 : 0.0;
 
     if (fLitFactor > 0.0)
     {
