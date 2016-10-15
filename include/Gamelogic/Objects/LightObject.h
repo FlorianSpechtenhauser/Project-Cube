@@ -8,8 +8,8 @@
 #ifndef __LIGHTOBJECT_PROJECTCUBE_HEADER
 #define __LIGHTOBJECT_PROJECTCUBE_HEADER
 
-#include "Gamelogic\IObject.h"
-#include "SemanticSceneNodes\Light_SemSceneNode.h"
+#include "Gamelogic/IObject.h"
+#include "SemanticSceneNodes/Light_SemSceneNode.h"
 
 class LightObject: public IObject
 {

@@ -14,7 +14,7 @@
 #include <list>
 #include <string>
 
-#include "SemanticSceneNodes\ISemanticSceneNode.h"
+#include "SemanticSceneNodes/ISemanticSceneNode.h"
 
 class IObject
 {

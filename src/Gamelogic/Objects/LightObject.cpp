@@ -1,4 +1,4 @@
-#include "Gamelogic\Objects\LightObject.h"
+#include "Gamelogic/Objects/LightObject.h"
 
 LightObject::LightObject(std::string sName)
 {

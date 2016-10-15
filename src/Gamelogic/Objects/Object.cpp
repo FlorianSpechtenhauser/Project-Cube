@@ -1,4 +1,4 @@
-#include "Gamelogic\Objects\Object.h"
+#include "Gamelogic/Objects/Object.h"
 
 Object::Object(std::string sName, std::string sFilename)
 {

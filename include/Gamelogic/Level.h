@@ -16,11 +16,11 @@
 #include "IXMLSerializeable.h"
 #include "Gamelogic/Cube.h"
 #include <vector>
-#include "SemanticSceneNodes\ISemanticSceneNode.h"
+#include "SemanticSceneNodes/ISemanticSceneNode.h"
 #include "Camera.h"
-#include "Gamelogic\IObject.h"
-#include "Gamelogic\Objects\LightObject.h"
-#include "Gamelogic\Objects\Object.h"
+#include "Gamelogic/IObject.h"
+#include "Gamelogic/Objects/LightObject.h"
+#include "Gamelogic/Objects/Object.h"
 
 
 class Level : public ILevel, public IXMLSerializeable

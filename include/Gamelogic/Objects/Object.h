@@ -8,8 +8,8 @@
 #ifndef __OBJECT_PROJECTCUBE_HEADER
 #define __OBJECT_PROJECTCUBE_HEADER
 
-#include "Gamelogic\IObject.h"
-#include "SemanticSceneNodes\LoadedModel_SemSceneNode.h"
+#include "Gamelogic/IObject.h"
+#include "SemanticSceneNodes/LoadedModel_SemSceneNode.h"
   
 class Object: public IObject
 {

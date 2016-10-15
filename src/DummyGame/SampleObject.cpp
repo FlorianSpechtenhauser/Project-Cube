@@ -1,5 +1,5 @@
 #include "DummyGame/SampleObject.h"
-#include "SemanticSceneNodes\Light_SemSceneNode.h"
+#include "SemanticSceneNodes/Light_SemSceneNode.h"
 
 glm::mat4 SampleObject::GetTransformation()
 {
